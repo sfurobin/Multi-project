@@ -32,20 +32,21 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.deepPurpleAccent,
+          //backgroundColor: Colors.grey,
           body: Container(
-            height: 500,
+            color: Colors.black,
+            height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
             child: Column(
-              children: [
 
+              children: [
                 SizedBox(height: 80,),
                 ElevatedButton(
                     onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context)=>CallApp()));
                 },
 
-                    child: Text("Call App",style:LatoItalic)
+                    child: Text("Call App",style:LatoItalic),
                 ),
                 SizedBox(height: 50,),
                 ElevatedButton(

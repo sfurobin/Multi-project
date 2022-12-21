@@ -51,13 +51,13 @@ class _GalleryState extends State<Gallery> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+     /* appBar: AppBar(
         title: Text(
           "Gallery",style: LatoBold,
         ),
         centerTitle: true,
         backgroundColor: Colors.teal,
-      ),
+      ),*/
       body: ListView(
          children: [
         InkWell(

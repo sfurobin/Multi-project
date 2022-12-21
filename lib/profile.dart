@@ -20,7 +20,7 @@ class _ProfileState extends State<Profile> {
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20)),
-                color: Colors.indigo,
+                color: Colors.teal,
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
