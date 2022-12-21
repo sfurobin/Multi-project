@@ -56,7 +56,6 @@ class _DrawerrState extends State<Drawerr> {
         key: _scaffoldkey,
 
         child: Scaffold(
-          bottomNavigationBar: ,
           backgroundColor: Colors.grey,
           appBar: AppBar(
             title: Text("Drawer and BottomNavigationbar"),
