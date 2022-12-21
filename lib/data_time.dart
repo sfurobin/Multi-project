@@ -53,14 +53,14 @@ class _DateandTimeState extends State<DateandTime> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
+       /* appBar: AppBar(
           title: Text(
             "Date and Time",
             style: latoBlackItalic,
           ),
           centerTitle: true,
           backgroundColor: Colors.teal,
-        ),
+        ),*/
         body: ListView(
           children: [
             SizedBox(

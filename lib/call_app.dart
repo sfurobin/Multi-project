@@ -18,12 +18,12 @@ class _CallAppState extends State<CallApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
-      appBar: AppBar(
+      backgroundColor: Colors.white,
+      /*appBar: AppBar(
         centerTitle: true,
         title: Text("Phone Contacts"),
         backgroundColor: Colors.lightGreen,
-      ),
+      ),*/
 
       body: Padding(
         padding: const EdgeInsets.only(top: 25),
