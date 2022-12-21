@@ -60,7 +60,7 @@ class _DrawerrState extends State<Drawerr> {
           appBar: AppBar(
             title: Text("Drawer and BottomNavigationbar"),
             centerTitle: true,
-            backgroundColor: Colors.pinkAccent,
+           // backgroundColor: Colors.pinkAccent,
           ),
           /*body: Container(
             alignment: Alignment.center,
